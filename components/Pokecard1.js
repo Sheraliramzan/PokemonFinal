@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "tailwindcss/tailwind.css";
 
-export default function PokeCard({
+export default function PokeCard1({
   name,
   image,
   image2,
@@ -36,11 +36,3 @@ export default function PokeCard({
     </div>
   );
 }
-
-
-
-
-
-
-
-

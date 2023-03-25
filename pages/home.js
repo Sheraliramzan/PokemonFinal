@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import PokeCard from '../components/PokeCard';
+import PokeCard1 from '../components/Pokecard1';
 import ashs from '../data/ashspokemon.json';
 import AshCard from '../components/AshCard';
 import { motion } from 'framer-motion';
@@ -42,7 +42,7 @@ export default function Home() {
                     transition={{ duration: 0.5 }}
                     className="w-full rounded-lg overflow-hidden"
                   >
-                    <PokeCard
+                    <PokeCard1
                       image2={ashs.Image2}
                       name={ashs.Name}
                       image={ashs.Image}
