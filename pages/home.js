@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import PokeCard from '../components/PokeCard'
-import ashs from '../data/ashspokemon.json'
-import AshCard from '../components/AshCard'
-import { motion } from 'framer-motion'
-import Link from 'next/link'
+import Head from 'next/head';
+import PokeCard from '../components/PokeCard';
+import ashs from '../data/ashspokemon.json';
+import AshCard from '../components/AshCard';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Home() {
   console.log(ashs);
